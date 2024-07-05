@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="music-player">
+      <div class="search-bar">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search for songs..."
+        />
+        <button id="search-btn">Search</button>
+      </div>
+      <div class="playlist">
+        <h2>Playlist</h2>
+        <ul id="playlist-list">
+          <!-- playlist items will be rendered here -->
+        </ul>
+      </div>
+      <div class="music-controls">
+        <button id="play-btn">Play</button>
+        <button id="pause-btn">Pause</button>
+        <button id="skip-btn">Skip</button>
+        <input type="range" id="volume-control" min="0" max="100" value="50" />
+      </div>
+      <div class="now-playing">
+        <h2>Now Playing</h2>
+        <p id="song-title"></p>
+        <p id="song-artist"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

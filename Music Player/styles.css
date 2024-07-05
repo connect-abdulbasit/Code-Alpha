@@ -1,0 +1,94 @@
+.music-player {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="search"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button[type="button"] {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button[type="button"]:hover {
+  background-color: #3e8e41;
+}
+
+.playlist {
+  margin-bottom: 20px;
+}
+
+.playlist h2 {
+  margin-top: 0;
+}
+
+.playlist ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.playlist li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.playlist li:hover {
+  background-color: #f0f0f0;
+}
+
+.music-controls {
+  margin-bottom: 20px;
+}
+
+.music-controls button[type="button"] {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.music-controls button[type="button"]:hover {
+  background-color: #3e8e41;
+}
+
+.volume-control {
+  width: 50%;
+  margin: 10px;
+}
+
+.now-playing {
+  margin-bottom: 20px;
+}
+
+.now-playing h2 {
+  margin-top: 0;
+}
+
+.now-playing p {
+  margin-bottom: 10px;
+}
